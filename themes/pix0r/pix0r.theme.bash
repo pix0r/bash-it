@@ -11,7 +11,7 @@ case $TERM in
 	TITLEBAR=""
 	;;
 esac
-PROMPT="${TITLEBAR}${orange}${reset_color}${bold_black}\u@\h${reset_color}:${green}\w${bold_blue}\[\$(scm_prompt_info)\]${reset_color}${normal}\$ "
+PROMPT="${TITLEBAR}${orange}${reset_color}${bold_black}\u@\h${reset_color}:${green}\w${bold_blue}\$(scm_prompt_info)${reset_color}${normal}\$ "
 
 
 # scm themeing
